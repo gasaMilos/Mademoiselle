@@ -10033,6 +10033,40 @@ header .navbar-nav a:active, header .navbar-nav a:hover {
   }
 }
 
+.lead-page-section-services {
+  margin-bottom: 50px;
+}
+
+.lead-page-section-services .lead-img-services {
+  background-size: cover;
+  background-position: center;
+}
+
+.lead-page-section-services .lead-img-services .lead-section-services-title {
+  font-family: "Bodoni-book";
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 20px;
+  line-height: 84px;
+  padding-top: 285px;
+  padding-bottom: 285px;
+}
+
+@media (min-width: 588px) {
+  .lead-page-section-services .lead-img-services .lead-section-services-title {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lead-page-section-services {
+    margin-bottom: 88px;
+  }
+  .lead-page-section-services .lead-img-services .lead-section-services-title {
+    font-size: 60px;
+  }
+}
+
 .trends {
   margin-bottom: 150px;
 }

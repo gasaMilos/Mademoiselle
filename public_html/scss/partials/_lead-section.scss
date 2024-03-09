@@ -52,3 +52,51 @@
         }
     }
 }
+
+
+//M-SERVICES-page
+
+.lead-page-section-services
+{
+    margin-bottom: 50px;
+    .lead-img-services{
+        background-size: cover;
+        background-position: center;
+        .lead-section-services-title{
+            font-family: $custom-font;
+            font-size: 25px;
+            font-weight: 300;
+            letter-spacing: 20px;
+            line-height: 84px;
+            padding-top: 285px;
+            padding-bottom: 285px;
+        }
+    }
+
+}
+@media(min-width: 588px){
+    .lead-page-section-services
+    {
+        .lead-img-services{
+            .lead-section-services-title{
+                font-size: 35px;
+            }
+        }
+
+    }
+}
+
+@media(min-width: 768px){
+    .lead-page-section-services
+    {
+        margin-bottom: 88px;
+        .lead-img-services{
+            .lead-section-services-title{
+                font-size: 60px;
+            }
+        }
+
+    }
+}
+
+
