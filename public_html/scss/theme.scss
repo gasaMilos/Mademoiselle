@@ -1,0 +1,14 @@
+@import "partials/_overide-bootstrap.scss";
+@import "../bootstrap/scss/bootstrap.scss";
+
+// custhom theme partials
+@import "partials/_base.scss";
+@import "partials/_animations.scss";
+@import "partials/_fonts.scss";
+@import "partials/_general.scss";
+@import "partials/_header.scss";
+@import "partials/_lead-section.scss";
+@import "partials/_trends-section.scss";
+@import "partials/_services-section.scss";
+@import "partials/_professionals-section.scss";
+@import "partials/_footer.scss";

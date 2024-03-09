@@ -1,0 +1,54 @@
+
+
+.lead-page-section{
+    margin-bottom: 75px;
+
+    .lead-img{
+        background-size: cover;
+        background-position: center;
+    }
+    h1{
+        font-family: $custom-font;
+        font-size: 1.5rem;
+        padding-top: 180px;
+        padding-bottom: 200px;
+        letter-spacing: 1rem;
+        line-height: 3rem;
+        max-width: 80%
+    }
+}
+
+@media(min-width: 588px){
+    .lead-page-section{
+        .lead-img{
+        }
+        h1{
+            font-size: 2.5rem;
+            width: 50%;
+        }
+    }
+}
+
+@media(min-width: 768px){
+    .lead-page-section{
+        .lead-img{
+        }
+        h1{
+            width: 50%;
+            font-size: 3.5rem;
+            letter-spacing: 1.5rem;
+            line-height: 5rem;
+        }
+    }
+}
+@media(min-width: 1100px){
+    .lead-page-section{
+        .lead-img{
+        }
+        h1{
+            font-size: 6rem;
+            letter-spacing: 2rem;
+            line-height: 8.4rem;
+        }
+    }
+}

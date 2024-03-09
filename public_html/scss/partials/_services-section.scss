@@ -1,0 +1,83 @@
+.services{
+    margin-bottom: 111px;
+    h3{
+        font-family: $custom-font;
+    }
+    .row{
+        margin-bottom: 50px;
+        .text-col{
+            background-color: $gray-100;
+            &:nth-child(even){
+                background-color: $second-color;
+            }
+            .text-content{
+                padding: 110px 30px;
+                h2{
+                    font-size: 26px;
+                    margin-bottom: 38px;
+                }
+                a{
+                    padding: 7px 16px;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+@media(min-width: 578px){
+ .services{
+    .row{
+       .text-col{
+         .text-content{
+                padding: 143px 76px;
+                h2{
+                    font-size: 36px;
+                }
+                a{
+                    padding: 11px 24px;
+                }
+            }
+        }
+}
+}
+}
+
+
+    
+
+@media(min-width: 768px){
+
+     .services{
+    .row{
+       .text-col{
+         .text-content{
+                padding: 143px 95px;
+                h2{
+                    font-size: 36px;
+                }
+                a{
+                    padding: 13px 38px;
+                }
+            }
+        }
+}
+}
+}
+
+@media(min-width: 992px){
+
+     .services{
+    .row{
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+}
+}
+}
+
+
