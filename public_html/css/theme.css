@@ -9668,6 +9668,10 @@ h3 {
   margin-bottom: 45px;
 }
 
+.active {
+  border-bottom: 1px solid #ECD9D9;
+}
+
 /*CSS ANIMACIJE*/
 @-webkit-keyframes buzz {
   10% {
@@ -10275,6 +10279,48 @@ footer p {
   font-size: 12px;
   line-height: 4.1rem;
   letter-spacing: -0.17px;
+}
+
+.lead-blog-section {
+  margin-bottom: 88px;
+}
+
+.lead-blog-section .lead-img-blog {
+  background-size: cover;
+  background-position: center;
+}
+
+.lead-blog-section .lead-img-blog .lead-blog-section-title {
+  font-family: "Bodoni-book";
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: 20px;
+  line-height: 84px;
+  padding-top: 285px;
+  padding-bottom: 285px;
+}
+
+.trends .blog-item {
+  margin-bottom: 50px;
+}
+
+.trends .pagination a {
+  text-decoration: none;
+  color: #1E1E1E;
+  font-family: "Bodoni-book";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.trends .pagination a:active, .trends .pagination a:hover {
+  border-bottom: 1px solid #ECD9D9;
+  background-color: #ECD9D9;
+}
+
+@media (min-width: 768px) {
+  .trends .blog-item {
+    margin-bottom: 100px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */

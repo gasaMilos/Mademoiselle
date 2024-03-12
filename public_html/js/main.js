@@ -27,5 +27,16 @@ $(document).ready(function () {
     }
     ;
 
+ if ($('.pagination').length > 0) {
+  $(function() {
+    $(selector).pagination({
+        items: 100,
+        itemsOnPage: 10,
+        cssStyle: 'light-theme'
+    });
 });
+}
+});
+
+
 
