@@ -10313,13 +10313,83 @@ footer p {
 }
 
 .trends .pagination a:active, .trends .pagination a:hover {
-  border-bottom: 1px solid #ECD9D9;
   background-color: #ECD9D9;
 }
 
 @media (min-width: 768px) {
   .trends .blog-item {
     margin-bottom: 100px;
+  }
+}
+
+.blog-single-lead {
+  margin-bottom: 60px;
+}
+
+.blog-single-lead .blog-date {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  line-height: 17px;
+  font-family: "Bodoni-book";
+  color: #1E1E1E;
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+.blog-single-lead .blog-single-title {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 26px;
+}
+
+.blog-single-lead .blog-single-lead-text {
+  margin-bottom: 21px;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.blog-single-content {
+  margin-bottom: 237px;
+}
+
+.blog-single-content .blog-single-content-text {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  margin-bottom: 41px;
+}
+
+.blog-single-content img {
+  margin: 30px 0;
+}
+
+.blog-single-content .tag {
+  font-family: "Bodoni-book";
+  margin-bottom: 20px;
+}
+
+.blog-single-content a {
+  padding: 3px 14px;
+  background-color: #F5F5F5;
+  font-family: "Bodoni-book";
+  margin-right: 10px;
+}
+
+@media (min-width: 578px) {
+  .blog-single-lead {
+    margin-bottom: 97px;
+  }
+  .blog-single-lead .blog-date {
+    padding-top: 192px;
+  }
+  .blog-single-lead .blog-single-title {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .blog-single-content {
+    margin-bottom: 237px;
+  }
+  .blog-single-content img {
+    margin: 52px 0;
   }
 }
 
