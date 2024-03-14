@@ -6,3 +6,16 @@ $font-size-base:  1.6rem;
 $gray-800: #1E1E1E ;
 $gray-100: #F5F5F5;
 
+$sizes: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  (
+    25: 25%,
+    40: 40%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+  ),
+  $sizes
+);

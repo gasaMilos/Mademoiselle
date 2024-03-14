@@ -7455,6 +7455,10 @@ button.bg-dark:focus {
   width: auto !important;
 }
 
+.w-40 {
+  width: 40% !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -7473,6 +7477,10 @@ button.bg-dark:focus {
 
 .h-auto {
   height: auto !important;
+}
+
+.h-40 {
+  height: 40% !important;
 }
 
 .mw-100 {
@@ -10390,6 +10398,70 @@ footer p {
   }
   .blog-single-content img {
     margin: 52px 0;
+  }
+}
+
+.contact-lead {
+  margin-bottom: 110px;
+  margin-top: 80px;
+  height: 100vh;
+}
+
+.contact-lead .container-fluid .map, .contact-lead .container-sm .map, .contact-lead .container-md .map, .contact-lead .container-lg .map, .contact-lead .container-xl .map {
+  width: 100%;
+}
+
+.contact-lead .container-fluid .form-section h3, .contact-lead .container-sm .form-section h3, .contact-lead .container-md .form-section h3, .contact-lead .container-lg .form-section h3, .contact-lead .container-xl .form-section h3 {
+  margin-bottom: 23px;
+  font-family: "Bodoni-book";
+}
+
+.contact-lead .container-fluid .form-section .form-group, .contact-lead .container-sm .form-section .form-group, .contact-lead .container-md .form-section .form-group, .contact-lead .container-lg .form-section .form-group, .contact-lead .container-xl .form-section .form-group {
+  margin-bottom: 42px;
+}
+
+.contact-lead .container-fluid .form-section .btn-contact, .contact-lead .container-sm .form-section .btn-contact, .contact-lead .container-md .form-section .btn-contact, .contact-lead .container-lg .form-section .btn-contact, .contact-lead .container-xl .form-section .btn-contact {
+  padding: 15px 30px;
+  background-color: transparent;
+}
+
+.contact-info {
+  background-color: #ECD9D9;
+  margin-bottom: 48px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.contact-info p:first-of-type {
+  padding-top: 60px;
+}
+
+.contact-info p:last-of-type {
+  padding-bottom: 60px;
+}
+
+@media (min-width: 588px) {
+  .contact-info p {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-lead {
+    height: 100vh;
+  }
+  .contact-lead .container-fluid, .contact-lead .container-sm, .contact-lead .container-md, .contact-lead .container-lg, .contact-lead .container-xl {
+    position: relative;
+  }
+  .contact-lead .container-fluid .map, .contact-lead .container-sm .map, .contact-lead .container-md .map, .contact-lead .container-lg .map, .contact-lead .container-xl .map {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    height: 100%;
   }
 }
 
