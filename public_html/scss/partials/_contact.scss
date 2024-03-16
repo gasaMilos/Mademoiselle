@@ -1,5 +1,5 @@
 .contact-lead{
-    margin-bottom: 110px;
+    margin-bottom: 50px;
     margin-top: 80px;
     height: 100vh;
     .container-fluid{
@@ -48,7 +48,6 @@
 
 @media(min-width: 768px){
     .contact-lead{
-        height: 100vh;
         .container-fluid{
             position: relative;
             .map{

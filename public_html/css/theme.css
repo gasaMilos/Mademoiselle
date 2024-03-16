@@ -10079,6 +10079,42 @@ header .navbar-nav a:active, header .navbar-nav a:hover {
   }
 }
 
+.lead-404-page-section .lead-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.lead-404-page-section .wrap {
+  padding-bottom: 274px;
+}
+
+.lead-404-page-section .wrap h1 {
+  font-family: "Bodoni-book";
+  font-size: 3rem;
+  padding-top: 274px;
+  letter-spacing: 1rem;
+  line-height: 3rem;
+  max-width: 80%;
+}
+
+.lead-404-page-section .wrap a {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 17px;
+  padding: 13px 30px;
+}
+
+@media (min-width: 768px) {
+  .lead-404-page-section .wrap h1 {
+    font-family: "Bodoni-book";
+    font-size: 6rem;
+    padding-top: 274px;
+    letter-spacing: 20px;
+    line-height: 84px;
+    max-width: 80%;
+  }
+}
+
 .trends {
   margin-bottom: 150px;
 }
@@ -10281,6 +10317,12 @@ footer .social a {
   font-size: 30px;
   color: #ECD9D9;
   text-decoration: none;
+  transition: 1s linear;
+  transform: rotate(0deg);
+}
+
+footer .social a:hover {
+  transform: rotate(360deg);
 }
 
 footer p {
@@ -10402,7 +10444,7 @@ footer p {
 }
 
 .contact-lead {
-  margin-bottom: 110px;
+  margin-bottom: 50px;
   margin-top: 80px;
   height: 100vh;
 }
@@ -10451,9 +10493,6 @@ footer p {
 }
 
 @media (min-width: 768px) {
-  .contact-lead {
-    height: 100vh;
-  }
   .contact-lead .container-fluid, .contact-lead .container-sm, .contact-lead .container-md, .contact-lead .container-lg, .contact-lead .container-xl {
     position: relative;
   }
@@ -10462,6 +10501,93 @@ footer p {
     width: 50%;
     right: 0;
     height: 100%;
+  }
+}
+
+.lead-about-page-section {
+  margin-bottom: 91px;
+}
+
+.lead-about-page-section .lead-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.lead-about-page-section h1 {
+  font-family: "Bodoni-book";
+  font-size: 3rem;
+  padding: 284px 0;
+  letter-spacing: 1rem;
+  line-height: 3rem;
+  max-width: 80%;
+}
+
+.about h2 {
+  font-size: 44px;
+  line-height: 5rem;
+}
+
+.about .img-about {
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 29px;
+}
+
+.about p:first-of-type {
+  font-size: 20px;
+}
+
+.about p:last-of-type {
+  font-size: 18px;
+}
+
+.side-bar-about .form-group input {
+  border: 1px solid #1E1E1E;
+  width: 100%;
+  padding: 10px;
+  padding-right: 60px;
+  color: #1E1E1E;
+}
+
+.side-bar-about .form-group i {
+  top: 14px;
+  right: 30px;
+  font-size: 2rem;
+  color: #1E1E1E;
+}
+
+@media (min-width: 588px) {
+  .lead-about-page-section h1 {
+    font-size: 60px;
+    letter-spacing: 2rem;
+    line-height: 8.4rem;
+  }
+  .side-bar-about .about-item {
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lead-about-page-section h1 {
+    font-size: 60px;
+    padding: 284px 0;
+    letter-spacing: 2rem;
+    line-height: 6rem;
+  }
+  .about p {
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 29px;
+  }
+  .side-bar-about .about-item {
+    margin-bottom: 100px;
+  }
+  .side-bar-about .trend-text h5 {
+    margin-bottom: 50px;
   }
 }
 

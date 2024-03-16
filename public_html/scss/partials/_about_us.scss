@@ -1,0 +1,103 @@
+.lead-about-page-section{
+    margin-bottom: 91px;
+    .lead-img{
+        background-size: cover;
+        background-position: center;
+    }
+    h1{
+        font-family: $custom-font;
+        font-size: 3rem;
+        padding: 284px 0;
+        letter-spacing: 1rem;
+        line-height: 3rem;
+        max-width: 80%
+    }
+}
+
+.about{
+    h2{
+        font-size: 44px;
+        line-height: 5rem;
+    }
+    .img-about{
+        margin-bottom: 30px;
+    }
+    p{
+        font-weight: 300;
+        line-height: 28px;
+        margin-bottom: 29px;
+        &:first-of-type{
+            font-size: 20px;
+        }
+        &:last-of-type{
+            font-size: 18px;
+        }
+    }
+}
+    .side-bar-about{
+        .form-group{
+            input{
+                border: 1px solid $dark;
+                width: 100%;
+                padding: 10px;
+                padding-right: 60px;
+                color: $dark;
+            }
+
+            i{
+                top: 14px;
+                right: 30px;
+                font-size: 2rem;
+                color: $dark;
+            }
+        }
+    }
+
+
+    @media(min-width: 588px){
+            .lead-about-page-section{
+            h1{
+                font-size: 60px;
+                letter-spacing: 2rem;
+                line-height: 8.4rem;
+            }
+        }
+
+
+        .side-bar-about{
+            .about-item{
+                margin-bottom: 80px;
+            }
+        }
+    }
+    @media(min-width: 768px){
+        .lead-about-page-section{
+            h1{
+                font-size: 60px;
+                padding: 284px 0;
+                letter-spacing: 2rem;
+                line-height: 6rem;
+            }
+        }
+
+        .about{
+            p{
+                font-weight: 300;
+                line-height: 28px;
+                margin-bottom: 29px;
+            }
+        }
+        .side-bar-about{
+            .about-item{
+                margin-bottom: 100px;
+            }
+            img{
+            }
+            .trend-text{
+                h5{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+
